@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+}
+.logo{
+    display: inline;
+    position: absolute;
+    left: 3%;
+    top: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.7rem ;
+}
+
+nav{
+    /* display: inline; */
+    position: absolute;
+    left: 30%;
+    margin-left: 20%;
+    
+}
+ul{
+    display: flex;
+   
+}
+li{
+    margin: 20px 20px;
+    list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+a:hover{
+    color: rgb(156, 156, 156);
+}
+.img2{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 94%;
+    height: 70vh;
+    opacity: 0.3;
+    right: 3%;
+}
+.heading{
+    /* display: block; */
+    position: absolute;
+    top: 30%;
+    background:none;
+    left: 7% ;
+    font-size: 4.7rem;
+    font-family: monospace;
+
+}
+.para{
+    position: absolute;
+    top: 46%;
+    left: 6.8%;
+    background: none;
+    color: rgb(202, 197, 197);
+    font-size: 2rem;
+    max-width: 50%;
+}
+.heading-2{
+    position: absolute;
+    top: 90%;
+    left: 6%;
+    font-size: 2.4rem;
+    font-family: monospace;
+}
+.heading-3{
+    position: absolute;
+    top: 92%;
+    left: 35%;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.9px;
+}
+.para-2{
+    position: absolute;
+    top: 110%;
+    font-size: 1.6rem;
+    max-width: 60%;
+    /* justify-content: center; */
+    text-align: start;
+    left: 35%;
+    color: rgb(202, 197, 197);
+}
+#heading-4{
+    position: absolute;
+    top: 170%;
+}
+#heading-5{
+    position: absolute;
+    top:170% ;
+}
+#para-3{
+    position: absolute;
+    top: 187%;
+}
+footer{
+    position: absolute;
+    top: 90%;
+    right: 11%;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+#foot{
+    top: 235%;
+}
+@media (max-width:667px){
+    nav{
+        top: 12%;
+        left: -15%;
+        margin-left: 20%; 
+    }
+    a{
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+    .logo{
+        left: 37%;
+        top: 24px;
+        font-size:2rem ;
+    }
+    .img2{
+        top: 24%;
+        left: 3%;
+    }
+    .heading{
+        font-size: 4rem;
+        top: 50%;
+    }
+    .para{
+        top: 100%;
+        max-width: 90%;
+    }
+    .heading-2{
+        top: 142%;
+        left: 20%;
+        
+    }
+    .heading-3{
+        top: 158%;
+        left: 7%;
+    }
+    .para-2{
+        top: 188%;
+        max-width: 90%;
+        left: 8%;
+    }
+    #heading-4{
+        top: 298%;
+        left: 17%;
+    }
+    #heading-5{
+        top: 309%;
+    }
+    #para-3{
+        top: 342%;
+    }
+    #foot{
+        top: 454%;
+        left: 10%;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+@media (max-width:773px){
+    #heading-4{
+        top: 280%;
+    }
+    #heading-5{
+        top: 290%;
+        left: 8%;
+    }
+  #para-3{
+        top: 320%;
+    }
+    #foot{
+        top: 410%;
+    }
+    .logo{
+        left: 32%;
+    }
+}
